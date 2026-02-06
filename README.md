@@ -25,26 +25,6 @@
 My work includes developing intelligent mobile assistants for retail associates, enterprise-grade EHR systems for clinicians, real-time chat support platforms, and digital investment tools—all hosted on robust cloud infrastructures (AWS & Azure). I’ve ensured system reliability through thorough testing, CI/CD automation, and implemented industry-standard protocols like OAuth2, HL7, and HIPAA for secure and compliant applications. This diverse experience reflects my strength in building enterprise solutions that are performant, maintainable, and aligned with user and business needs.
   </p>
 
-  <div class="grid">
-
-    <article class="card">
-      <h3>Cloud Microservices Platform</h3>
-      <p>Built scalable microservices using <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>GCP</strong>, <strong>Kubernetes</strong>, and <strong>Pub/Sub</strong>.</p>
-      <div class="card-actions">
-        <a class="btn small" href="https://github.com/YOUR_GITHUB/microservices-platform" target="_blank">GitHub</a>
-        <a class="btn small primary" href="https://YOUR_DEMO_LINK.com" target="_blank">Live Demo</a>
-      </div>
-    </article>
-
-    <article class="card">
-      <h3>Full Stack Enterprise App</h3>
-      <p>Developed <strong>Angular</strong> + <strong>Spring Boot</strong> app with secure <strong>REST APIs</strong>, <strong>JWT</strong>, and <strong>Cloud SQL</strong>.</p>
-      <div class="card-actions">
-        <a class="btn small" href="https://github.com/YOUR_GITHUB/enterprise-app" target="_blank">GitHub</a>
-        <a class="btn small primary" href="https://YOUR_DEMO_LINK.com" target="_blank">Live Demo</a>
-      </div>
-    </article>
-
   </div>
 </section>
 
