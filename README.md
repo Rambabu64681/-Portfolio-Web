@@ -76,17 +76,88 @@ My work includes developing intelligent mobile assistants for retail associates,
     </p>
   </section>
 
-  <!-- SKILLS -->
-  <section class="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java, Spring Boot, Microservices</li>
-      <li>Angular, TypeScript, HTML, CSS</li>
-      <li>GCP, Docker, Kubernetes</li>
-      <li>SQL, BigQuery, Pub/Sub</li>
-      <li>CI/CD, Jenkins, Git</li>
-    </ul>
-  </section>
+  <!-- TECHNICAL SKILLS -->
+<section id="skills" class="section">
+  <h2>Technical Skills</h2>
+  <p class="skills-sub">Technologies and tools I work with</p>
+
+  <div class="skills-grid">
+
+    <!-- Frontend -->
+    <div class="skill-card">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li>React.js & React Native</li>
+        <li>Angular & TypeScript</li>
+        <li>Redux & Context API</li>
+        <li>HTML5, CSS3, Tailwind CSS</li>
+        <li>Responsive & Cross-Platform UI</li>
+      </ul>
+    </div>
+
+    <!-- Backend -->
+    <div class="skill-card">
+      <h3>Backend & Microservices</h3>
+      <ul>
+        <li>Java (Spring Boot, Spring MVC, Spring Security)</li>
+        <li>Node.js & Express.js</li>
+        <li>RESTful API Design</li>
+        <li>Kafka & RabbitMQ Messaging</li>
+        <li>OAuth2, JWT & API Security</li>
+      </ul>
+    </div>
+
+    <!-- Databases -->
+    <div class="skill-card">
+      <h3>Databases & Storage</h3>
+      <ul>
+        <li>MySQL & PostgreSQL (RDS, Aurora)</li>
+        <li>MongoDB & Cassandra</li>
+        <li>Hibernate & Spring Data JPA</li>
+        <li>SQL, PL/SQL</li>
+        <li>Azure Blob & AWS S3</li>
+      </ul>
+    </div>
+
+    <!-- Cloud -->
+    <div class="skill-card">
+      <h3>Cloud & DevOps</h3>
+      <ul>
+        <li>AWS (EC2, S3, Lambda, SageMaker)</li>
+        <li>Azure (AKS, IoT Hub, Data Lake)</li>
+        <li>Docker & Kubernetes</li>
+        <li>CI/CD (Jenkins, Azure DevOps)</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+    <!-- Testing -->
+    <div class="skill-card">
+      <h3>Testing & Monitoring</h3>
+      <ul>
+        <li>JUnit, Mockito, Cypress</li>
+        <li>Selenium Grid & Protractor</li>
+        <li>Testcontainers for Integration Tests</li>
+        <li>AWS CloudWatch, ELK Stack</li>
+        <li>Application Insights</li>
+      </ul>
+    </div>
+
+    <!-- Enterprise -->
+    <div class="skill-card">
+      <h3>Enterprise & Interoperability</h3>
+      <ul>
+        <li>HL7 & FHIR Standards</li>
+        <li>HIPAA Compliance</li>
+        <li>SAML Authentication</li>
+        <li>EPIC & Cerner Integration</li>
+        <li>System Architecture Design</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- PROJECTS -->
   <section id="projects">
