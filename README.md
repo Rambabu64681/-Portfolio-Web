@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,13 +10,13 @@
 
   <!-- HERO -->
   <header class="hero">
-    <h1>Hi, I'm Ram</h1>
-    <h2>Full Stack Developer | Java | GCP</h2>
-    <p>Passionate about building scalable enterprise and cloud-native applications.</p>
+    <h1>Hi, I'm Ram Babu</h1>
+    <h2>Sr Software Developer | Full Stack Developer | Java Developer</h2>
+    <p>Passionate about creating innovative solutions through code. I specialize in building Enterprise grade applications in the Java ecosystem, Web architecture and cloud native applications.</p>
 
     <div class="buttons">
       <a href="#projects">View My Work</a>
-      <a href="resume.pdf" download>Download Resume</a>
+      <a href="Ram Baburesume.pdf" download>Download Resume</a>
       <a href="#contact">Let's Connect</a>
     </div>
   </header>
