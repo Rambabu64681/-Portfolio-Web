@@ -25,7 +25,6 @@
 My work includes developing intelligent mobile assistants for retail associates, enterprise-grade EHR systems for clinicians, real-time chat support platforms, and digital investment tools—all hosted on robust cloud infrastructures (AWS & Azure). I’ve ensured system reliability through thorough testing, CI/CD automation, and implemented industry-standard protocols like OAuth2, HL7, and HIPAA for secure and compliant applications. This diverse experience reflects my strength in building enterprise solutions that are performant, maintainable, and aligned with user and business needs.
   </p>
 
-  </div>
 </section>
 
       <a href="Ram Baburesume.pdf" download>Download Resume</a>
