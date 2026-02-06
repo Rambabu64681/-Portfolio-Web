@@ -29,6 +29,40 @@ My work includes developing intelligent mobile assistants for retail associates,
 
       <a href="Ram Baburesume.pdf" download>Download Resume</a>
       <a href="#contact">Let's Connect</a>
+      <!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Let's Connect</h2>
+  <p>I’m open to full-time roles, contract opportunities, and technical discussions.</p>
+
+  <div class="contact-box">
+
+    <p><strong>Name:</strong> Ram Babu</p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:Rambabu64681@gmail.com">
+        Rambabu64681@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/rambabu64681" target="_blank">
+        www.linkedin.com/in/rambabu64681
+      </a>
+    </p>
+
+    <p><strong>Location:</strong> 06088, East Windsor, CT</p>
+
+    <!-- Optional Buttons -->
+    <div style="margin-top:15px;">
+      <a class="btn primary" href="mailto:Rambabu64681@gmail.com">Send Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/rambabu64681" target="_blank">LinkedIn</a>
+    </div>
+
+  </div>
+</section>
+
     </div>
   </header>
 
