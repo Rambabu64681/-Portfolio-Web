@@ -16,6 +16,41 @@
 
     <div class="buttons">
       <a href="#projects">View My Work</a>
+      <section id="projects" class="section">
+  <h2>View My Work</h2>
+
+  <p class="work-intro">
+    Over the course of my career, I have contributed to the design and development of high-impact software systems
+    across healthcare, finance, retail, and customer service domains. I have built full-stack applications with modern
+    frameworks like <strong>React</strong>, <strong>Angular</strong>, and <strong>React Native</strong>, delivering
+    user-centric interfaces for both web and mobile platforms. On the backend, I have engineered scalable,
+    cloud-ready services using <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Microservices</strong>,
+    and event-driven messaging with <strong>Kafka</strong> and <strong>RabbitMQ</strong>.
+  </p>
+
+  <div class="grid">
+
+    <article class="card">
+      <h3>Cloud Microservices Platform</h3>
+      <p>Built scalable microservices using <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>GCP</strong>, <strong>Kubernetes</strong>, and <strong>Pub/Sub</strong>.</p>
+      <div class="card-actions">
+        <a class="btn small" href="https://github.com/YOUR_GITHUB/microservices-platform" target="_blank">GitHub</a>
+        <a class="btn small primary" href="https://YOUR_DEMO_LINK.com" target="_blank">Live Demo</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>Full Stack Enterprise App</h3>
+      <p>Developed <strong>Angular</strong> + <strong>Spring Boot</strong> app with secure <strong>REST APIs</strong>, <strong>JWT</strong>, and <strong>Cloud SQL</strong>.</p>
+      <div class="card-actions">
+        <a class="btn small" href="https://github.com/YOUR_GITHUB/enterprise-app" target="_blank">GitHub</a>
+        <a class="btn small primary" href="https://YOUR_DEMO_LINK.com" target="_blank">Live Demo</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
       <a href="Ram Baburesume.pdf" download>Download Resume</a>
       <a href="#contact">Let's Connect</a>
     </div>
