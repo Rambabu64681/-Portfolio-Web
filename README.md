@@ -20,12 +20,9 @@
   <h2>View My Work</h2>
 
   <p class="work-intro">
-    Over the course of my career, I have contributed to the design and development of high-impact software systems
-    across healthcare, finance, retail, and customer service domains. I have built full-stack applications with modern
-    frameworks like <strong>React</strong>, <strong>Angular</strong>, and <strong>React Native</strong>, delivering
-    user-centric interfaces for both web and mobile platforms. On the backend, I have engineered scalable,
-    cloud-ready services using <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Microservices</strong>,
-    and event-driven messaging with <strong>Kafka</strong> and <strong>RabbitMQ</strong>.
+    Over the course of my career, I have contributed to the design and development of high-impact software systems across healthcare, finance, retail, and customer service domains. I have built full-stack applications with modern frameworks like React, Angular, and React Native, delivering user-centric interfaces for both web and mobile platforms. On the backend, I have engineered scalable microservices and real-time data systems using Java, Spring Boot, Node.js, and Kafka—focusing on performance, modularity, and security.
+
+My work includes developing intelligent mobile assistants for retail associates, enterprise-grade EHR systems for clinicians, real-time chat support platforms, and digital investment tools—all hosted on robust cloud infrastructures (AWS & Azure). I’ve ensured system reliability through thorough testing, CI/CD automation, and implemented industry-standard protocols like OAuth2, HL7, and HIPAA for secure and compliant applications. This diverse experience reflects my strength in building enterprise solutions that are performant, maintainable, and aligned with user and business needs.
   </p>
 
   <div class="grid">
