@@ -1,14 +1,103 @@
-Sr Software Developer | Full Stack Developer | Java Developer
-Driven by a passion for coding and problem-solving, I focus on building scalable enterprise applications leveraging the Java ecosystem, robust web architecture, and cloud-native platforms.
-Professional Summary
-Frontend & Mobile Development
-Extensive experience developing dynamic and responsive user interfaces using React.js, Angular, React Native, and Android Native. Skilled in implementing complex form logic, real-time dashboards, and interactive components using Redux, Context API, Tailwind CSS, and styled-components. Proven ability to deliver seamless cross-platform experiences, optimizing performance with techniques like lazy loading and code splitting.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-Backend Development & Cloud Architecture
-Proficient in developing scalable, event-driven backend systems using Java (Spring Boot), Node.js, and microservices architecture. Expertise in secure API design with OAuth2, JWT, and Spring Security, and asynchronous messaging using Kafka and RabbitMQ. Hands-on experience with AWS and Azure platforms, including Lambda, S3, RDS, AKS, and SageMaker for cloud-native deployments and machine learning integration.
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Hi, I'm Ram</h1>
+    <h2>Full Stack Developer | Java | GCP</h2>
+    <p>Passionate about building scalable enterprise and cloud-native applications.</p>
 
-Database & System Integration
-Strong command over relational and NoSQL databases including MySQL, PostgreSQL, Oracle, Cassandra, and Hadoop for large-scale data handling. Integrated third-party systems (e.g., Epic, Cerner, POS) using REST/SOAP APIs and ensured standards compliance with HL7, FHIR, HIPAA, and SAML.
+    <div class="buttons">
+      <a href="#projects">View My Work</a>
+      <a href="resume.pdf" download>Download Resume</a>
+      <a href="#contact">Let's Connect</a>
+    </div>
+  </header>
 
-DevOps & Testing
-Experience building and maintaining CI/CD pipelines using Jenkins, Azure DevOps, Git, and Docker. Emphasizes code quality with rigorous testing practices including unit, integration, and E2E testing using JUnit, Mockito, Cypress, Selenium, and Testcontainers. Adept at monitoring and logging with AWS CloudWatch, ELK Stack, and Azure Monitor to ensure high availability and performance.
+  <!-- ABOUT -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Full-stack developer with 8+ years experience in Java, Spring Boot, Angular,
+      Microservices, and Google Cloud Platform. Experienced in building scalable,
+      secure, and high-performance enterprise applications.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java, Spring Boot, Microservices</li>
+      <li>Angular, TypeScript, HTML, CSS</li>
+      <li>GCP, Docker, Kubernetes</li>
+      <li>SQL, BigQuery, Pub/Sub</li>
+      <li>CI/CD, Jenkins, Git</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Cloud Microservices Platform</h3>
+      <p>Built scalable microservices using Java, Spring Boot, GCP, Kubernetes, and Pub/Sub.</p>
+    </div>
+
+    <div class="card">
+      <h3>Full Stack Enterprise App</h3>
+      <p>Developed Angular + Spring Boot application with secure REST APIs and Cloud SQL.</p>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+  </section>
+
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: #1e293b;
+  color: white;
+}
+
+.buttons a {
+  margin: 10px;
+  padding: 10px 18px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+section {
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
