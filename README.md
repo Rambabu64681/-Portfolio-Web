@@ -1,18 +1,55 @@
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Full Stack Developer</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+<section class="hero" id="home">
 
-  <!-- HERO -->
-  <header class="hero">
-    <h1>Hi, I'm Ram Babu</h1>
-    <h2>Sr Software Developer | Full Stack Developer | Java Developer</h2>
-    <p>Passionate about creating innovative solutions through code. I specialize in building Enterprise grade applications in the Java ecosystem, Web architecture and cloud native applications.</p>
+  <!-- LEFT SIDE -->
+  <div class="hero-left">
+    <div class="hero-badge">Java • Full Stack • Microservices</div>
+
+    <h1>Hi, I'm <br><span>Ram Babu</span></h1>
+
+    <h3>Sr Software Developer | Full Stack Developer | Java Developer</h3>
+
+    <p>
+      Passionate about creating innovative solutions through code.
+      I build enterprise-grade applications with Java, modern UI frameworks,
+      and cloud-native architecture focused on performance, security, and reliability.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="resume.pdf" class="btn-outline" download>Download Resume</a>
+      <a href="#contact" class="btn-ghost">Let’s Connect</a>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE CARD -->
+  <div class="hero-card">
+    <h3>Let’s Connect</h3>
+
+    <div class="card-item">📍 East Windsor, CT · USA</div>
+
+    <div class="card-item">
+      📞 <a href="tel:+18606005205">860-600-5205</a>
+    </div>
+
+    <div class="card-item">
+      ✉️ <a href="mailto:Rambabu64681@gmail.com">Rambabu64681@gmail.com</a>
+    </div>
+
+    <div class="card-item">
+      🔗 <a href="https://www.linkedin.com/in/rambabu64681" target="_blank">LinkedIn Profile</a>
+    </div>
+
+    <div class="hero-mini">
+      <span class="pill">Spring Boot</span>
+      <span class="pill">React</span>
+      <span class="pill">AWS</span>
+      <span class="pill">Azure</span>
+      <span class="pill">CI/CD</span>
+    </div>
+  </div>
+
+</section>
 
     <div class="buttons">
       <a href="#projects">View My Work</a>
