@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -57,9 +57,7 @@
 </html>
 
 
-    <div class="buttons">
-      <a href="#projects">View My Work</a>
-      <section id="projects" class="section">
+   
   <h2>View My Work</h2>
 
   <p class="work-intro">
