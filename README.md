@@ -320,11 +320,200 @@ My work includes developing intelligent mobile assistants for retail associates,
     <p>LinkedIn: linkedin.com/in/yourprofile</p>
   </section>
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: linear-gradient(135deg, #0f172a, #020617);
-  color: #e5e7eb;
+/* ===== Base ===== */
+:root{
+  --bg1:#0b1020;          /* deep navy */
+  --bg2:#0a1733;          /* blue navy */
+  --card: rgba(255,255,255,.07);
+  --border: rgba(255,255,255,.12);
+  --text:#e5e7eb;
+  --muted:#a7b0c0;
+
+  --accent:#38bdf8;       /* sky */
+  --accent2:#a78bfa;      /* violet */
+  --accent3:#22c55e;      /* java-green optional */
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--text);
+
+  /* Premium background */
+  background:
+    radial-gradient(900px 500px at 15% 10%, rgba(56,189,248,.22), transparent 60%),
+    radial-gradient(900px 500px at 85% 20%, rgba(167,139,250,.18), transparent 60%),
+    radial-gradient(800px 600px at 50% 90%, rgba(34,197,94,.10), transparent 60%),
+    linear-gradient(135deg, var(--bg1), var(--bg2));
+}
+
+/* ===== Layout ===== */
+.section, section{
+  padding: 56px 18px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+h1,h2,h3{margin:0 0 12px 0; line-height:1.2}
+p{color:var(--muted); line-height:1.7}
+
+/* ===== Top Navbar (add in HTML) ===== */
+.nav{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(10px);
+  background: rgba(2,6,23,.55);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.nav-inner{
+  max-width:1080px;
+  margin:0 auto;
+  padding: 12px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+}
+.brand{
+  font-weight:700;
+  letter-spacing:.2px;
+  color: var(--text);
+  text-decoration:none;
+}
+.nav a{
+  color: var(--muted);
+  text-decoration:none;
+  font-size:14px;
+  margin-left:14px;
+}
+.nav a:hover{color:var(--text)}
+
+/* ===== Hero ===== */
+.hero{
+  padding: 76px 18px 44px;
+  text-align:center;
+  max-width:1080px;
+  margin:0 auto;
+}
+.hero h1{
+  font-size: clamp(32px, 4vw, 46px);
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  background-clip:text;
+  color:transparent;
+}
+.hero h2{
+  font-size: 16px;
+  font-weight:600;
+  color: var(--muted);
+  margin-top:8px;
+}
+.hero p{
+  max-width: 850px;
+  margin: 16px auto 0;
+}
+
+/* ===== Buttons ===== */
+.buttons{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+  margin-top: 22px;
+}
+.btn, .buttons a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding: 11px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  text-decoration:none;
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+.btn:hover, .buttons a:hover{
+  transform: translateY(-1px);
+  background: rgba(255,255,255,.10);
+  border-color: rgba(56,189,248,.35);
+}
+.btn.primary{
+  background: linear-gradient(90deg, rgba(56,189,248,.85), rgba(167,139,250,.85));
+  border-color: rgba(255,255,255,.10);
+  color: #06101f;
+  font-weight:700;
+}
+
+/* ===== Section headings ===== */
+section > h2{
+  font-size: 22px;
+  letter-spacing:.2px;
+  display:inline-block;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  margin-bottom: 18px;
+  color: #f8fafc;
+}
+section > h2::after{
+  content:"";
+  display:block;
+  height:3px;
+  width:64px;
+  margin-top:10px;
+  border-radius:999px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+}
+
+/* ===== Cards ===== */
+.card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  margin: 14px 0;
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
+}
+.card h3{
+  font-size: 18px;
+  color: #f1f5f9;
+}
+.card p{margin: 8px 0 0}
+
+/* ===== Lists ===== */
+ul{padding-left: 18px; margin: 12px 0 0}
+li{margin: 10px 0; color: var(--muted); line-height:1.6}
+
+/* Highlight skill tags in middle */
+strong{
+  color: #0b1020;
+  background: rgba(56,189,248,.85);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+/* ===== Contact box ===== */
+.contact-box{
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 14px;
+  padding: 18px;
+}
+.contact-box a{color: var(--accent); text-decoration:none}
+.contact-box a:hover{text-decoration:underline}
+
+/* ===== Footer (optional) ===== */
+.footer{
+  text-align:center;
+  padding: 24px 18px 40px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 }
 
 
