@@ -26,8 +26,6 @@
       <a href="#contact">Let's Connect</a>
     </div>
   </header>
-<img width="468" height="264" alt="image" src="https://github.com/user-attachments/assets/f6360783-33bc-4dcf-b9a9-99b0958bbe5b" />
-
 
 
 
