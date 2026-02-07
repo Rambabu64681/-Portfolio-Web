@@ -29,7 +29,7 @@ My work includes developing intelligent mobile assistants for retail associates,
 
       <a href="Ram Baburesume.pdf" download>Download Resume</a>
       <a href="#contact">Let's Connect</a>
-      <!-- CONTACT -->
+  <!-- CONTACT -->
 <section id="contact" class="section">
   <h2>Let's Connect</h2>
   <p>I’m open to full-time roles, contract opportunities, and technical discussions.</p>
@@ -46,6 +46,13 @@ My work includes developing intelligent mobile assistants for retail associates,
     </p>
 
     <p>
+      <strong>Phone:</strong>
+      <a href="tel:+18606005205">
+        860-600-5205
+      </a>
+    </p>
+
+    <p>
       <strong>LinkedIn:</strong>
       <a href="https://www.linkedin.com/in/rambabu64681" target="_blank">
         www.linkedin.com/in/rambabu64681
@@ -56,12 +63,8 @@ My work includes developing intelligent mobile assistants for retail associates,
 
     <!-- Optional Buttons -->
     <div style="margin-top:15px;">
-      <a class="btn primary" href="mailto:Rambabu64681@gmail.com">Send Email</a>
-      <a class="btn" href="https://www.linkedin.com/in/rambabu64681" target="_blank">LinkedIn</a>
-    </div>
+      <a class="btn primary" href="mailto:Rambabu64681@gma
 
-  </div>
-</section>
 
     </div>
   </header>
@@ -76,87 +79,7 @@ My work includes developing intelligent mobile assistants for retail associates,
     </p>
   </section>
 
-  <!-- TECHNICAL SKILLS -->
-<section id="skills" class="section">
-  <h2>Technical Skills</h2>
-  <p class="skills-sub">Technologies and tools I work with</p>
-
-  <div class="skills-grid">
-
-    <!-- Frontend -->
-    <div class="skill-card">
-      <h3>Frontend Development</h3>
-      <ul>
-        <li>React.js & React Native</li>
-        <li>Angular & TypeScript</li>
-        <li>Redux & Context API</li>
-        <li>HTML5, CSS3, Tailwind CSS</li>
-        <li>Responsive & Cross-Platform UI</li>
-      </ul>
-    </div>
-
-    <!-- Backend -->
-    <div class="skill-card">
-      <h3>Backend & Microservices</h3>
-      <ul>
-        <li>Java (Spring Boot, Spring MVC, Spring Security)</li>
-        <li>Node.js & Express.js</li>
-        <li>RESTful API Design</li>
-        <li>Kafka & RabbitMQ Messaging</li>
-        <li>OAuth2, JWT & API Security</li>
-      </ul>
-    </div>
-
-    <!-- Databases -->
-    <div class="skill-card">
-      <h3>Databases & Storage</h3>
-      <ul>
-        <li>MySQL & PostgreSQL (RDS, Aurora)</li>
-        <li>MongoDB & Cassandra</li>
-        <li>Hibernate & Spring Data JPA</li>
-        <li>SQL, PL/SQL</li>
-        <li>Azure Blob & AWS S3</li>
-      </ul>
-    </div>
-
-    <!-- Cloud -->
-    <div class="skill-card">
-      <h3>Cloud & DevOps</h3>
-      <ul>
-        <li>AWS (EC2, S3, Lambda, SageMaker)</li>
-        <li>Azure (AKS, IoT Hub, Data Lake)</li>
-        <li>Docker & Kubernetes</li>
-        <li>CI/CD (Jenkins, Azure DevOps)</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </div>
-
-    <!-- Testing -->
-    <div class="skill-card">
-      <h3>Testing & Monitoring</h3>
-      <ul>
-        <li>JUnit, Mockito, Cypress</li>
-        <li>Selenium Grid & Protractor</li>
-        <li>Testcontainers for Integration Tests</li>
-        <li>AWS CloudWatch, ELK Stack</li>
-        <li>Application Insights</li>
-      </ul>
-    </div>
-
-    <!-- Enterprise -->
-    <div class="skill-card">
-      <h3>Enterprise & Interoperability</h3>
-      <ul>
-        <li>HL7 & FHIR Standards</li>
-        <li>HIPAA Compliance</li>
-        <li>SAML Authentication</li>
-        <li>EPIC & Cerner Integration</li>
-        <li>System Architecture Design</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
+ 
 
 
   <!-- PROFESSIONAL SUMMARY -->
@@ -282,6 +205,113 @@ My work includes developing intelligent mobile assistants for retail associates,
 
 </section>
 
+<!-- TECHNICAL SKILLS -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <p>Technologies and tools I work with</p>
+
+  <div class="card">
+
+    <h3>Frontend Development</h3>
+    <ul>
+      <li>React.js & React Native</li>
+      <li>Angular & TypeScript</li>
+      <li>Redux & Context API</li>
+      <li>HTML5, CSS3, Tailwind CSS</li>
+      <li>Responsive & Cross-Platform UI</li>
+    </ul>
+
+    <h3>Backend & Microservices</h3>
+    <ul>
+      <li>Java (Spring Boot, Spring MVC, Spring Security)</li>
+      <li>Microservices Architecture</li>
+      <li>RESTful API Design</li>
+      <li>Kafka & RabbitMQ Messaging</li>
+      <li>OAuth2, JWT & API Security</li>
+    </ul>
+
+    <h3>Databases & Storage</h3>
+    <ul>
+      <li>MySQL & PostgreSQL</li>
+      <li>MongoDB & Cassandra</li>
+      <li>Hibernate & Spring Data JPA</li>
+      <li>SQL, PL/SQL</li>
+      <li>Data Modeling & Query Optimization</li>
+    </ul>
+
+    <h3>Cloud & DevOps</h3>
+    <ul>
+      <li>AWS (EC2, S3, Lambda, VPC)</li>
+      <li>Azure Cloud Services</li>
+      <li>Docker & Kubernetes</li>
+      <li>CI/CD (Jenkins, Azure DevOps, GitHub Actions)</li>
+      <li>Git & GitHub</li>
+    </ul>
+
+    <h3>Testing & Monitoring</h3>
+    <ul>
+      <li>JUnit, Mockito, Cypress</li>
+      <li>Selenium, Test Automation</li>
+      <li>Integration Testing & Testcontainers</li>
+      <li>Logging, Monitoring, Observability</li>
+      <li>Performance Testing & Debugging</li>
+    </ul>
+
+    <h3>Architecture & Design</h3>
+    <ul>
+      <li>System Architecture Design</li>
+      <li>Distributed Systems</li>
+      <li>Event-Driven Architecture</li>
+      <li>Scalable & High-Performance Systems</li>
+      <li>Secure Application Design</li>
+    </ul>
+
+  </div>
+</section>
+
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <h2>Certifications</h2>
+
+  <div class="card">
+    <h3>AWS Certified Data Engineer – Associate</h3>
+    <ul>
+      <li>Achieved <strong>AWS Certified Data Engineer – Associate</strong>, demonstrating hands-on expertise in <strong>AWS Data Services, ETL Pipelines, Data Integration, Data Processing</strong>, supporting scalable and reliable data workflows for enterprise Java microservices.</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Education</h2>
+
+  <!-- MASTER'S -->
+  <div class="card">
+    <h3>Master of Science in Computer Science</h3>
+    <p><strong>Northern Arizona University</strong> · Arizona, United States</p>
+    <ul>
+      <li>Completed Master’s degree with strong focus on <strong>Software Engineering, Distributed Systems, Cloud Computing, Data Processing</strong>, building advanced technical and problem-solving skills.</li>
+      <li>Graduated with a GPA of <strong>3.8 / 4.0</strong>, demonstrating consistent academic excellence and deep understanding of computer science fundamentals.</li>
+    </ul>
+  </div>
+
+  <!-- BACHELOR'S -->
+  <div class="card">
+    <h3>Bachelor of Technology in Computer Science</h3>
+    <p><strong>Jawaharlal Nehru Technological University, Kakinada</strong> · India</p>
+    <ul>
+      <li>Built strong foundation in <strong>Programming, Data Structures, Algorithms, Database Systems, Software Development</strong>, supporting long-term engineering expertise.</li>
+      <li>Graduated with a GPA of <strong>8.1 / 10.0</strong>, maintaining solid academic performance and technical consistency throughout the program.</li>
+    </ul>
+  </div>
+
+</section>
+
+
+
+
 
   <!-- CONTACT -->
   <section id="contact">
@@ -290,38 +320,11 @@ My work includes developing intelligent mobile assistants for retail associates,
     <p>LinkedIn: linkedin.com/in/yourprofile</p>
   </section>
 
-</body>
-</html>
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f7f7f7;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
 }
 
-.hero {
-  text-align: center;
-  padding: 60px;
-  background: #1e293b;
-  color: white;
-}
-
-.buttons a {
-  margin: 10px;
-  padding: 10px 18px;
-  background: #3b82f6;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-}
-
-section {
-  padding: 40px;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  margin: 10px 0;
-  border-radius: 6px;
-}
 
