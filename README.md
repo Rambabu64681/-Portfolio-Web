@@ -68,9 +68,7 @@ My work includes developing intelligent mobile assistants for retail associates,
 
 </section>
 
-      <a href="Ram Baburesume.pdf" download>Download Resume</a>
-      <a href="#contact">Let's Connect</a>
-  <!-- CONTACT -->
+      
 <section id="contact" class="section">
   <h2>Let's Connect</h2>
   <p>I’m open to full-time roles, contract opportunities, and technical discussions.</p>
@@ -104,11 +102,11 @@ My work includes developing intelligent mobile assistants for retail associates,
 
     <!-- Optional Buttons -->
     <div style="margin-top:15px;">
-      <a class="btn primary" href="mailto:Rambabu64681@gma
+      
 
 
     </div>
-  </header>
+  
 
   <!-- ABOUT -->
   <section class="about">
