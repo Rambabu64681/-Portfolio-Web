@@ -159,21 +159,93 @@ My work includes developing intelligent mobile assistants for retail associates,
 </section>
 
 
-  <!-- PROJECTS -->
-  <section id="projects">
-    <h2>Projects</h2>
+  <!-- PROFESSIONAL SUMMARY -->
+<section id="summary">
+  <h2>Professional Summary</h2>
+  <div class="card">
+    <p>
+      Software Engineer with <strong>8+ years of experience</strong> building scalable, secure, and high-performance enterprise
+      applications using <strong>Java, React, Spring Boot, and Google Cloud Platform (GCP)</strong>.
+      Proven ability to design responsive frontend systems, optimize cloud deployments, and deliver real-time,
+      data-driven web applications across financial and healthcare domains.
+    </p>
+  </div>
+</section>
 
-    <div class="card">
-      <h3>Cloud Microservices Platform</h3>
-      <p>Built scalable microservices using Java, Spring Boot, GCP, Kubernetes, and Pub/Sub.</p>
-    </div>
 
-    <div class="card">
-      <h3>Full Stack Enterprise App</h3>
-      <p>Developed Angular + Spring Boot application with secure REST APIs and Cloud SQL.</p>
-    </div>
+<!-- EXPERIENCE -->
+<section id="experience">
+  <h2>Professional Experience</h2>
 
-  </section>
+  <!-- WESTERN UNION -->
+  <div class="card">
+    <h3>Western Union — Software Developer</h3>
+    <p>Dec 2024 – Present · Clinton, Massachusetts, United States · Remote</p>
+    <ul>
+      <li>Architected and delivered responsive financial web interfaces using <strong>Java, React, HTML5, CSS3, GCP</strong>, improving application performance and user engagement.</li>
+      <li>Built scalable frontend-backend integrations via <strong>Spring Boot REST APIs, JSON, Axios</strong>, enabling real-time transaction visibility.</li>
+      <li>Implemented secure authentication using <strong>OAuth2, JWT, GCP Identity Platform</strong>, ensuring protected financial workflows and compliance.</li>
+      <li>Optimized UI rendering with <strong>Lazy Loading, Memoization, Code Splitting</strong>, reducing load time and improving responsiveness.</li>
+      <li>Developed real-time dashboards using <strong>React, Redux, WebSockets, GCP Pub/Sub</strong>, enhancing operational insights.</li>
+      <li>Automated CI/CD pipelines with <strong>Cloud Build, Docker, Git</strong>, improving release stability and deployment speed.</li>
+      <li>Strengthened monitoring using <strong>GCP Cloud Monitoring, Logging</strong>, reducing production issues and improving system reliability.</li>
+      <li>Enabled scalable deployment via <strong>GKE, Cloud Run, Load Balancing</strong>, ensuring high availability and fault tolerance.</li>
+    </ul>
+  </div>
+
+
+  <!-- LEGACY HEALTH -->
+  <div class="card">
+    <h3>Legacy Health — Software Developer</h3>
+    <p>Sep 2023 – Nov 2024 · Portland, Oregon, United States · Remote</p>
+    <ul>
+      <li>Developed secure healthcare portal interfaces using <strong>Java, React, GCP</strong>, improving digital patient experience and workflow efficiency.</li>
+      <li>Implemented real-time appointment and patient dashboards with <strong>React Hooks, WebSockets, Firestore</strong>, enhancing data visibility.</li>
+      <li>Strengthened frontend security using <strong>Spring Security, OAuth2, Secure APIs</strong>, ensuring HIPAA-aligned data protection.</li>
+      <li>Optimized UI performance using <strong>Lazy Loading, Cloud CDN, Performance Tuning</strong>, improving cross-device rendering speed.</li>
+      <li>Built reusable UI component libraries using <strong>React Component Architecture</strong>, improving development efficiency.</li>
+      <li>Integrated backend services using <strong>Spring REST, API Gateway</strong>, enabling secure healthcare data exchange.</li>
+      <li>Enhanced monitoring using <strong>Cloud Monitoring, Logging</strong>, improving system stability and error resolution time.</li>
+      <li>Delivered scalable deployments via <strong>Cloud Run, Kubernetes Engine</strong>, ensuring reliable and resilient healthcare applications.</li>
+    </ul>
+  </div>
+
+
+  <!-- TCS -->
+  <div class="card">
+    <h3>Tata Consultancy Services — Software Engineer</h3>
+    <p>Dec 2019 – Aug 2023 · Hyderabad, India · On-site</p>
+    <ul>
+      <li>Developed scalable enterprise UI using <strong>Java, React, HTML5, CSS3</strong>, improving performance and user experience.</li>
+      <li>Implemented API-driven frontend using <strong>Spring Boot, REST APIs, JSON</strong>, enabling reliable system communication.</li>
+      <li>Built reusable React components and centralized state using <strong>Redux Toolkit</strong>, improving maintainability.</li>
+      <li>Optimized frontend performance with <strong>Code Splitting, Memoization, Lazy Loading</strong>, reducing page load latency.</li>
+      <li>Enabled cloud deployments using <strong>GCP App Engine, Cloud Build, CI/CD</strong>, improving delivery speed.</li>
+      <li>Implemented secure authentication using <strong>JWT, OAuth2</strong>, ensuring protected application access.</li>
+      <li>Improved monitoring with <strong>Cloud Logging, Error Tracking</strong>, enhancing reliability.</li>
+      <li>Collaborated in Agile teams using <strong>Git, Jira</strong>, ensuring consistent and high-quality delivery.</li>
+    </ul>
+  </div>
+
+
+  <!-- PIPRA -->
+  <div class="card">
+    <h3>PIPRA Solutions — Associate Software Engineer</h3>
+    <p>Jan 2018 – Nov 2019 · Hyderabad, India · On-site</p>
+    <ul>
+      <li>Developed responsive web interfaces using <strong>React, JavaScript, HTML5, CSS3</strong>, improving cross-browser usability.</li>
+      <li>Integrated UI with backend services using <strong>Java, REST APIs, JSON</strong>, enabling seamless communication.</li>
+      <li>Implemented form validation and dynamic UI behavior, improving data accuracy and usability.</li>
+      <li>Optimized performance using <strong>Lazy Loading, Code Optimization</strong>, improving responsiveness.</li>
+      <li>Implemented secure login flows using <strong>JWT, OAuth2</strong>, improving authentication reliability.</li>
+      <li>Used <strong>Git, Code Reviews</strong> to maintain clean and stable codebase.</li>
+      <li>Supported cloud deployment using <strong>GCP App Engine, Cloud Storage</strong>, improving scalability.</li>
+      <li>Assisted in CI/CD and containerized deployment using <strong>Docker</strong>, improving release efficiency.</li>
+    </ul>
+  </div>
+
+</section>
+
 
   <!-- CONTACT -->
   <section id="contact">
