@@ -1,5 +1,3 @@
-my-portfolio/
- ├── index.html
- ├── style.css
- ├── script.js
- └── resume.pdf
+title: Ram Babu
+//#description: text below image//
+theme: jekyll-theme-minimal
