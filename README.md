@@ -9,23 +9,84 @@
 
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
-    <h1>Hi, I'm Ram Babu</h1>
-    <h2>Sr Software Developer | Full Stack Developer | Java Developer</h2>
+<!-- NAVBAR -->
+<nav class="nav">
+  <a class="nav-logo" href="#home">RB</a>
 
-    <p>
-      Passionate about creating innovative solutions through code.
-      I specialize in building Enterprise grade applications in the Java ecosystem,
-      Web architecture and cloud native applications.
-    </p>
+  <div class="nav-links">
+    <a href="#skills">Expertise</a>
+    <a href="#experience">History</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-    <div class="buttons">
-      <a href="#projects">View My Work</a>
-      <a href="resume.pdf" download>Download Resume</a>
-      <a href="#contact">Let's Connect</a>
+  <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀</button>
+</nav>
+
+<!-- HERO -->
+<header class="hero hero-wave" id="home">
+
+  <!-- WAVE BACKGROUND (this creates the purple curve like the picture) -->
+  <div class="wave-wrap" aria-hidden="true">
+    <svg class="wave" viewBox="0 0 1440 420" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#ff2bd6" stop-opacity="0.95"/>
+          <stop offset="55%" stop-color="#8b2cff" stop-opacity="0.95"/>
+          <stop offset="100%" stop-color="#5c7cfa" stop-opacity="0.85"/>
+        </linearGradient>
+
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+          <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+
+      <!-- striped wave lines -->
+      <path class="wave-line" d="M0,270 C260,340 420,150 720,210 C1000,270 1120,70 1440,160" />
+      <path class="wave-line" d="M0,285 C260,355 420,165 720,225 C1000,285 1120,85 1440,175" />
+      <path class="wave-line" d="M0,300 C260,370 420,180 720,240 C1000,300 1120,100 1440,190" />
+      <path class="wave-line" d="M0,315 C260,385 420,195 720,255 C1000,315 1120,115 1440,205" />
+      <path class="wave-line" d="M0,330 C260,400 420,210 720,270 C1000,330 1120,130 1440,220" />
+      <path class="wave-line" d="M0,345 C260,415 420,225 720,285 C1000,345 1120,145 1440,235" />
+      <path class="wave-line" d="M0,360 C260,430 420,240 720,300 C1000,360 1120,160 1440,250" />
+    </svg>
+  </div>
+
+  <!-- HERO CONTENT -->
+  <div class="hero-inner">
+    <div class="avatar">
+      <!-- put your image in repo: assets/profile.jpg -->
+      <img src="assets/profile.jpg" alt="Ram Babu photo" />
     </div>
-  </header>
+
+    <div class="hero-content">
+      <div class="social">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub">⌂</a>
+        <a href="https://www.linkedin.com/in/rambabu64681" target="_blank" aria-label="LinkedIn">in</a>
+      </div>
+
+      <h1 class="hero-title">Ram Babu</h1>
+      <p class="hero-sub">Sr Software Developer | Full Stack | Java</p>
+
+      <p class="hero-desc">
+        Passionate about creating enterprise-grade applications with strong focus on scalability,
+        performance, security, and cloud-native architecture.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">View My Work</a>
+        <a class="btn" href="resume.pdf" download>Download Resume</a>
+        <a class="btn" href="#contact">Let's Connect</a>
+      </div>
+    </div>
+  </div>
+
+</header>
+
 
 
   <!-- PROJECTS -->
