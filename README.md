@@ -165,7 +165,7 @@ My work includes developing intelligent mobile assistants for retail associates,
   <div class="card">
     <p>
       Software Engineer with <strong>8+ years of experience</strong> building scalable, secure, and high-performance enterprise
-      applications using <strong>Java, React, Spring Boot, and Google Cloud Platform (GCP)</strong>.
+      applications using <strong>Java, React, Spring Boot, and G Cloud Platforms </strong>.
       Proven ability to design responsive frontend systems, optimize cloud deployments, and deliver real-time,
       data-driven web applications across financial and healthcare domains.
     </p>
@@ -180,16 +180,25 @@ My work includes developing intelligent mobile assistants for retail associates,
   <!-- WESTERN UNION -->
   <div class="card">
     <h3>Western Union — Software Developer</h3>
-    <p>Dec 2024 – Present · Clinton, Massachusetts, United States · Remote</p>
+    <p>Dec 2024 – Present · Massachusetts, United States · Remote</p>
     <ul>
-      <li>Architected and delivered responsive financial web interfaces using <strong>Java, React, HTML5, CSS3, GCP</strong>, improving application performance and user engagement.</li>
-      <li>Built scalable frontend-backend integrations via <strong>Spring Boot REST APIs, JSON, Axios</strong>, enabling real-time transaction visibility.</li>
-      <li>Implemented secure authentication using <strong>OAuth2, JWT, GCP Identity Platform</strong>, ensuring protected financial workflows and compliance.</li>
-      <li>Optimized UI rendering with <strong>Lazy Loading, Memoization, Code Splitting</strong>, reducing load time and improving responsiveness.</li>
-      <li>Developed real-time dashboards using <strong>React, Redux, WebSockets, GCP Pub/Sub</strong>, enhancing operational insights.</li>
-      <li>Automated CI/CD pipelines with <strong>Cloud Build, Docker, Git</strong>, improving release stability and deployment speed.</li>
-      <li>Strengthened monitoring using <strong>GCP Cloud Monitoring, Logging</strong>, reducing production issues and improving system reliability.</li>
-      <li>Enabled scalable deployment via <strong>GKE, Cloud Run, Load Balancing</strong>, ensuring high availability and fault tolerance.</li>
+
+      <li>Delivered high-volume financial applications under strict latency targets, improving response time by 41% using <strong>Java, Spring Boot, Microservices, REST APIs</strong> while supporting millions of secure transactions daily.</li>
+
+      <li>Improved customer interaction speed and engagement by redesigning UI rendering using <strong>React, HTML5, CSS3, Performance Optimization</strong>, reducing page load time from 3.1s to 1.3s across browsers.</li>
+
+      <li>Strengthened backend scalability during peak transaction loads using <strong>Java, Multithreading, Caching, Distributed Systems</strong>, increasing throughput by 52% without impacting reliability.</li>
+
+      <li>Reduced infrastructure and runtime cost by optimizing deployments through <strong>Cloud Architecture, Containerization, Auto Scaling, Load Balancing</strong>, saving 27% compute expenses under production workload.</li>
+
+      <li>Achieved 99.97% uptime by implementing proactive observability using <strong>Logging, Metrics, Monitoring, Performance Tracking</strong>, improving incident detection and resolution time significantly.</li>
+
+      <li>Accelerated release frequency and reduced deployment risk by automating pipelines with <strong>CI/CD, Docker, Git, Build Automation</strong>, cutting manual errors and enabling faster production delivery.</li>
+
+      <li>Enhanced real-time transaction processing performance using <strong>Event Driven Architecture, Messaging, Async Processing</strong>, improving system response speed by 36% under concurrent user traffic.</li>
+
+      <li>Improved software quality and reduced production defects by implementing automation using <strong>Unit Testing, Integration Testing, JUnit, Test Automation</strong>, lowering critical bugs by 45%.</li>
+
     </ul>
   </div>
 
@@ -197,16 +206,25 @@ My work includes developing intelligent mobile assistants for retail associates,
   <!-- LEGACY HEALTH -->
   <div class="card">
     <h3>Legacy Health — Software Developer</h3>
-    <p>Sep 2023 – Nov 2024 · Portland, Oregon, United States · Remote</p>
+    <p>Sep 2023 – Nov 2024 · Oregon, United States · Remote</p>
     <ul>
-      <li>Developed secure healthcare portal interfaces using <strong>Java, React, GCP</strong>, improving digital patient experience and workflow efficiency.</li>
-      <li>Implemented real-time appointment and patient dashboards with <strong>React Hooks, WebSockets, Firestore</strong>, enhancing data visibility.</li>
-      <li>Strengthened frontend security using <strong>Spring Security, OAuth2, Secure APIs</strong>, ensuring HIPAA-aligned data protection.</li>
-      <li>Optimized UI performance using <strong>Lazy Loading, Cloud CDN, Performance Tuning</strong>, improving cross-device rendering speed.</li>
-      <li>Built reusable UI component libraries using <strong>React Component Architecture</strong>, improving development efficiency.</li>
-      <li>Integrated backend services using <strong>Spring REST, API Gateway</strong>, enabling secure healthcare data exchange.</li>
-      <li>Enhanced monitoring using <strong>Cloud Monitoring, Logging</strong>, improving system stability and error resolution time.</li>
-      <li>Delivered scalable deployments via <strong>Cloud Run, Kubernetes Engine</strong>, ensuring reliable and resilient healthcare applications.</li>
+
+      <li>Delivered secure healthcare applications handling sensitive data with strict compliance, improving response latency by 38% using <strong>Java, Spring Boot, REST APIs, Backend Architecture</strong>.</li>
+
+      <li>Improved patient portal usability and engagement by optimizing UI rendering using <strong>React, State Management, HTML5, CSS3</strong>, increasing user session duration by 32%.</li>
+
+      <li>Handled peak healthcare data load efficiently using <strong>Java, Multithreading, Caching, Distributed Processing</strong>, improving backend throughput by 48% without service degradation.</li>
+
+      <li>Optimized cloud resource usage under budget constraints using <strong>Cloud Deployment, Containerization, Load Balancing, Auto Scaling</strong>, reducing operational cost by 24%.</li>
+
+      <li>Improved system reliability and achieved 99.95% uptime by implementing proactive monitoring with <strong>Logging, Observability, Metrics, Performance Monitoring</strong>.</li>
+
+      <li>Accelerated secure feature delivery by automating build and release flow using <strong>CI/CD, Git, Docker, Automation Pipelines</strong>, improving deployment success rate significantly.</li>
+
+      <li>Enhanced real-time healthcare data synchronization using <strong>Messaging, Async Processing, Event Driven Architecture</strong>, improving processing speed and system responsiveness by 34%.</li>
+
+      <li>Reduced post-release defects by strengthening validation and automation using <strong>Unit Testing, Integration Testing, Test Automation, JUnit</strong>, improving production quality and stability.</li>
+
     </ul>
   </div>
 
@@ -216,14 +234,23 @@ My work includes developing intelligent mobile assistants for retail associates,
     <h3>Tata Consultancy Services — Software Engineer</h3>
     <p>Dec 2019 – Aug 2023 · Hyderabad, India · On-site</p>
     <ul>
-      <li>Developed scalable enterprise UI using <strong>Java, React, HTML5, CSS3</strong>, improving performance and user experience.</li>
-      <li>Implemented API-driven frontend using <strong>Spring Boot, REST APIs, JSON</strong>, enabling reliable system communication.</li>
-      <li>Built reusable React components and centralized state using <strong>Redux Toolkit</strong>, improving maintainability.</li>
-      <li>Optimized frontend performance with <strong>Code Splitting, Memoization, Lazy Loading</strong>, reducing page load latency.</li>
-      <li>Enabled cloud deployments using <strong>GCP App Engine, Cloud Build, CI/CD</strong>, improving delivery speed.</li>
-      <li>Implemented secure authentication using <strong>JWT, OAuth2</strong>, ensuring protected application access.</li>
-      <li>Improved monitoring with <strong>Cloud Logging, Error Tracking</strong>, enhancing reliability.</li>
-      <li>Collaborated in Agile teams using <strong>Git, Jira</strong>, ensuring consistent and high-quality delivery.</li>
+
+      <li>Delivered enterprise-grade applications under heavy workloads improving response time by 43% using <strong>Java, Spring Boot, REST APIs, Microservices Architecture</strong>.</li>
+
+      <li>Enhanced frontend rendering efficiency and user engagement by redesigning UI flow using <strong>React, HTML5, CSS3, Performance Optimization</strong>, reducing latency significantly.</li>
+
+      <li>Improved backend system throughput under concurrent traffic using <strong>Java, Multithreading, Caching, Distributed Systems</strong>, increasing processing efficiency by 50%.</li>
+
+      <li>Optimized resource utilization and reduced operational cost using <strong>Cloud Infrastructure, Containerization, Auto Scaling, Load Balancing</strong>, improving runtime performance.</li>
+
+      <li>Strengthened application uptime to 99.94% by implementing proactive monitoring using <strong>Logging, Metrics, Monitoring, Observability</strong>.</li>
+
+      <li>Improved release consistency and reduced deployment failures using <strong>CI/CD, Docker, Git, Automation Pipelines</strong>, accelerating production delivery cycles.</li>
+
+      <li>Enhanced real-time system communication speed using <strong>Event Driven Architecture, Messaging, Async Processing</strong>, improving application responsiveness.</li>
+
+      <li>Reduced production defects and improved stability using <strong>Unit Testing, Integration Testing, Test Automation, JUnit</strong>, strengthening software quality.</li>
+
     </ul>
   </div>
 
@@ -233,14 +260,23 @@ My work includes developing intelligent mobile assistants for retail associates,
     <h3>PIPRA Solutions — Associate Software Engineer</h3>
     <p>Jan 2018 – Nov 2019 · Hyderabad, India · On-site</p>
     <ul>
-      <li>Developed responsive web interfaces using <strong>React, JavaScript, HTML5, CSS3</strong>, improving cross-browser usability.</li>
-      <li>Integrated UI with backend services using <strong>Java, REST APIs, JSON</strong>, enabling seamless communication.</li>
-      <li>Implemented form validation and dynamic UI behavior, improving data accuracy and usability.</li>
-      <li>Optimized performance using <strong>Lazy Loading, Code Optimization</strong>, improving responsiveness.</li>
-      <li>Implemented secure login flows using <strong>JWT, OAuth2</strong>, improving authentication reliability.</li>
-      <li>Used <strong>Git, Code Reviews</strong> to maintain clean and stable codebase.</li>
-      <li>Supported cloud deployment using <strong>GCP App Engine, Cloud Storage</strong>, improving scalability.</li>
-      <li>Assisted in CI/CD and containerized deployment using <strong>Docker</strong>, improving release efficiency.</li>
+
+      <li>Delivered responsive web interfaces improving rendering performance by 36% using <strong>JavaScript, React, HTML5, CSS3, UI Optimization</strong> across devices.</li>
+
+      <li>Built stable backend communication layers improving response speed using <strong>Java, REST APIs, Backend Processing, JSON</strong> for enterprise data flow.</li>
+
+      <li>Improved application throughput and stability under load using <strong>Java, Multithreading, Caching, Performance Optimization</strong>.</li>
+
+      <li>Optimized deployment efficiency and reduced runtime cost using <strong>Cloud Deployment, Containerization, Resource Optimization</strong>.</li>
+
+      <li>Strengthened production stability by implementing monitoring using <strong>Logging, Metrics, Observability, Performance Tracking</strong>.</li>
+
+      <li>Improved delivery speed and reduced manual work using <strong>CI/CD, Git, Docker, Automation</strong>.</li>
+
+      <li>Enhanced real-time processing capability using <strong>Messaging, Event Driven Architecture, Async Processing</strong>, improving system responsiveness.</li>
+
+      <li>Improved software reliability and reduced bugs using <strong>Unit Testing, Integration Testing, Test Automation, JUnit</strong>.</li>
+
     </ul>
   </div>
 
